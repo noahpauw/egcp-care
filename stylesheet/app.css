@@ -74,6 +74,6 @@ li {
     position: absolute;
     top: 0;
     left: 0;
-    transform: rotate(45deg) translateY(-16px);
+    transform: rotate(45deg) translateY(-18px);
     z-index: -999;
 }
