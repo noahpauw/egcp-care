@@ -17,11 +17,30 @@ h1 {
     color: var(--h1-color) !important;
 }
 
-.bg-taupe {
+.bg-blur {
     /* background-color: var(--taupe); */
+    /* background-image: url("../img/blur_taupe.png"); */
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 80%; */
+    backdrop-filter: blur(20px);
+}
+
+.bg-taupe {
     background-image: url("../img/blur_taupe.png");
     background-size: cover;
     background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
 }
 
 p {
