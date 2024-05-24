@@ -59,7 +59,7 @@ li {
 }
 
 .overlay {
-    background: linear-gradient(to bottom, #fff, #333);
+    background: linear-gradient(to bottom, #bbb, #111);
     mix-blend-mode:screen;
 }
 
