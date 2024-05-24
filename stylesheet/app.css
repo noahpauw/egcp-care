@@ -19,7 +19,9 @@ h1 {
 
 .bg-taupe {
     /* background-color: var(--taupe); */
-    background-image: url("../img/bg_taupe.png");
+    background-image: url("../img/blur_taupe.png");
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 p {
@@ -31,8 +33,14 @@ p {
     height: 150px;
 }
 
+.max-banner {
+    height: 400px;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
 .logo {
-    transform: translateY(-110px);
+    transform: translateY(-120px);
     height: 250%;
 }
 
@@ -48,11 +56,6 @@ p {
 
 li {
     margin-bottom: 1em;
-}
-
-.max-banner {
-    height: 400px;
-    overflow: hidden;
 }
 
 .overlay {
@@ -76,4 +79,28 @@ li {
     left: 0;
     transform: rotate(45deg) translateY(-18px);
     z-index: -999;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100vw;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    .banner {
+        height: 75px;
+    }
+
+    .max-banner {
+        margin-top: 75px !important;
+        height: 200px;
+    }
+
+    .logo {
+        transform: translateY(-150px);
+        height: 500%;
+    }
 }
