@@ -5,7 +5,7 @@
 }
 
 * {
-    font-family: "Lato", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 body, html {
@@ -48,4 +48,32 @@ p {
 
 li {
     margin-bottom: 1em;
+}
+
+.max-banner {
+    height: 400px;
+    overflow: hidden;
+}
+
+.overlay {
+    background: linear-gradient(to bottom, #fff, #333);
+    mix-blend-mode:screen;
+}
+
+.max-banner > img {
+    object-fit: cover;
+}
+
+.bg-space {
+    background-image: url("../img/space.png");
+}
+
+.small-block {
+    width: 24px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(45deg) translateY(-16px);
+    z-index: -999;
 }
