@@ -1,2 +1,2 @@
-# egcp-care
-Website voor EGCP Care
+# EGCP Care
+De website voor EGCP Care.
